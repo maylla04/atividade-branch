@@ -29,6 +29,12 @@ font-size: 28px;
 font-weight: bold;
 }
 
+.banner {
+width: 100%;
+height: 300px;
+background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70') no-repeat center/cover;
+}
+
 .conteudo {
 padding: 40px;
 display: grid;
@@ -68,3 +74,4 @@ color: #fff;
 padding: 40px;
 text-align: center;
 }
+
