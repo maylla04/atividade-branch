@@ -68,10 +68,18 @@ object-fit: cover;
 padding: 15px;
 }
 
+footer {
+background: #000;
+color: white;
+text-align: center;
+padding: 15px;
+}
+=======
 .contact-section {
 background: #111;
 color: #fff;
 padding: 40px;
 text-align: center;
 }
+
 
