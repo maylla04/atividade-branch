@@ -1,3 +1,25 @@
+
+nav {
+background: #1a1a1a;
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 15px;
+}
+
+
+nav a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+transition: 0.3s;
+}
+
+
+nav a:hover {
+color: #ff0000;
+}
+
 header {
 background: #000;
 color: #fff;
@@ -6,8 +28,44 @@ text-align: center;
 font-size: 28px;
 font-weight: bold;
 }
+
 .banner {
 width: 100%;
 height: 300px;
 background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70') no-repeat center/cover;
 }
+
+.conteudo {
+padding: 40px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+
+
+.card {
+background: white;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+overflow: hidden;
+transition: 0.3s;
+}
+
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+
+.card img {
+width: 100%;
+height: 160px;
+object-fit: cover;
+}
+
+
+.card .info {
+padding: 15px;
+}
+
+
